@@ -41,7 +41,7 @@
   
     
   
-  <meta name="description" content="A highly-customizable Hugo résumé theme powered by Hugo Blox Builder." />
+  <meta name="description" content="Alex Reznik professional portfolio. AI Researcher, Software Engineer, and Product Manager." />
 
   
   <link rel="alternate" hreflang="en-us" href="http://localhost:58347/" />
@@ -51,7 +51,7 @@
   
   
     
-    <link rel="stylesheet" href="/css/themes/blue.min.css" />
+    <link rel="stylesheet" href="/css/themes/emerald.min.css" />
   
 
   
@@ -121,7 +121,7 @@
 
 
 
-
+<meta name="google-site-verification" content="J0IHMpdA65OgdtbOcHBkyhaja_oTaWu8yjxKDyN5LJ4" />
 
 
 
@@ -160,8 +160,8 @@
   
 
   
-  <link rel="icon" type="image/png" href="/media/icon_hu_5cac115d14ed3d49.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_e7f327b39c12e7ca.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu_cb824111262ffa4e.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_416aa2f217de69f9.png" />
 
   <link rel="canonical" href="http://localhost:58347/" />
 
@@ -185,14 +185,11 @@
   
   <meta property="twitter:card" content="summary" />
   
-    <meta property="twitter:site" content="@GetResearchDev" />
-    <meta property="twitter:creator" content="@GetResearchDev" />
-  
   <meta property="og:site_name" content="Résumé Hugo Theme" />
   <meta property="og:url" content="http://localhost:58347/" />
   <meta property="og:title" content="Home | Résumé Hugo Theme" />
-  <meta property="og:description" content="A highly-customizable Hugo résumé theme powered by Hugo Blox Builder." /><meta property="og:image" content="http://localhost:58347/media/icon_hu_645fa481986063ef.png" />
-    <meta property="twitter:image" content="http://localhost:58347/media/icon_hu_645fa481986063ef.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Alex Reznik professional portfolio. AI Researcher, Software Engineer, and Product Manager." /><meta property="og:image" content="http://localhost:58347/media/icon_hu_fce6d79adffe8e19.png" />
+    <meta property="twitter:image" content="http://localhost:58347/media/icon_hu_fce6d79adffe8e19.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta property="og:updated_time" content="2023-10-24T00:00:00&#43;00:00" />
@@ -341,6 +338,62 @@
 
 
 
+<link type="text/css" rel="stylesheet" href="/dist/pagefind/pagefind-ui.be766eb419317a14ec769d216e9779bfe8f3737c80e780f4ba0dafb57a41a482.css" integrity="sha256-vnZutBkxehTsdp0hbpd5v&#43;jzc3yA54D0ug2vtXpBpII=" />
+
+
+<script src="/dist/pagefind/pagefind-ui.87693d7c6f2b3b347ce359d0ede762c033419f0a32b22ce508c335a81d841f1b.js" integrity="sha256-h2k9fG8rOzR841nQ7ediwDNBnwoysizlCMM1qB2EHxs="></script>
+
+
+<script>window.hbb.pagefind = {"baseUrl":"/"};</script>
+
+<style>
+  html.dark {
+    --pagefind-ui-primary: #eeeeee;
+    --pagefind-ui-text: #eeeeee;
+    --pagefind-ui-background: #152028;
+    --pagefind-ui-border: #152028;
+    --pagefind-ui-tag: #152028;
+  }
+</style>
+
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      baseUrl: window.hbb.pagefind.baseUrl,
+      bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
+    });
+  });
+  document.addEventListener('DOMContentLoaded', () => {
+    let element = document.getElementById('search');
+    let trigger = document.getElementById('search_toggle');
+
+    if (trigger) {
+      trigger.addEventListener('click', () => {
+        element.classList.toggle('hidden');
+        element.querySelector("input").value = ""
+        element.querySelector("input").focus()
+
+        if (!element.classList.contains('hidden')) {
+          let clear_trigger = document.querySelector('.pagefind-ui__search-clear');
+
+          if (clear_trigger && !clear_trigger.hasAttribute('listenerOnClick')) {
+            clear_trigger.setAttribute('listenerOnClick', 'true');
+
+            clear_trigger.addEventListener('click', () => {
+              element.classList.toggle('hidden');
+            });
+          }
+        }
+
+      });
+    }
+  });
+</script>
+
+
+
 
 
 
@@ -386,36 +439,6 @@
     <div class="page-header ">
       
       
-      
-        
-        
-        
-          <div class="absolute right-0 top-0 m-3 bg-primary-100 dark:bg-primary-700 rounded-full p-2 z-10">
-  <div class="h-[24px] w-[24px]">
-    <button class="theme-toggle" accesskey="t" title="" aria-label="Display preferences">
-      <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-           stroke-linejoin="round" class="dark:hidden">
-        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-      </svg>
-      <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-           fill="none" stroke="white" stroke-width="2" stroke-linecap="round"
-           stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
-        <circle cx="12" cy="12" r="5"></circle>
-        <line x1="12" y1="1" x2="12" y2="3"></line>
-        <line x1="12" y1="21" x2="12" y2="23"></line>
-        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-        <line x1="1" y1="12" x2="3" y2="12"></line>
-        <line x1="21" y1="12" x2="23" y2="12"></line>
-        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-      </svg>
-    </button>
-  </div>
-</div>
-
-        
       
     </div>
     <div class="page-body ">
@@ -877,84 +900,24 @@ time zones and cultures, with strong technical fluency in software architecture,
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path></svg>
             </svg>
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">PhD Artificial Intelligence
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Bachelor of Computer Science (minor in Human-Computer Interaction)
 
         </h3>
-        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">Stanford University</span>
+        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">Drexel University</span>
         <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
           
-            January 2016 –
+            September 1999 –
           
           
-            December 2020
-          
-        </time>
-        <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert">Thesis on <em>Why LLMs are awesome</em>. Supervised by <a href="https://example.com" target="_blank" rel="noopener">Prof Joe Smith</a>. Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.</div>
-
-        
-        <a href="https://example.com" target="_blank" rel="noopener" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="w-3.5 h-3.5 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-          <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
-          <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
-        </svg> Read Thesis</a>
-        
-
-      </li>
-      
-      <li class="mb-10 ms-6">
-        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path></svg>
-            </svg>
-        </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">MEng Artificial Intelligence
-
-        </h3>
-        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">Massachusetts Institute of Technology</span>
-        <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
-          
-            January 2016 –
-          
-          
-            December 2020
+            June 2004
           
         </time>
-        <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert"><p>GPA: 3.8/4.0</p>
-<p>Courses included:</p>
+        <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert"><p>Additional courses completed:</p>
 <ul>
-<li>lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-<li>lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-<li>lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-</ul>
-</div>
-
-        
-
-      </li>
-      
-      <li class="mb-10 ms-6">
-        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path></svg>
-            </svg>
-        </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">BSc Artificial Intelligence
-
-        </h3>
-        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">Massachusetts Institute of Technology</span>
-        <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
-          
-            January 2016 –
-          
-          
-            December 2020
-          
-        </time>
-        <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert"><p>GPA: 3.4/4.0</p>
-<p>Courses included:</p>
-<ul>
-<li>lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-<li>lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-<li>lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-</ul>
-</div>
+<li>Figma course at SkillBox</li>
+<li>Python course at SkillBox</li>
+<li>Introduction to AI with Python at HarvardX</li>
+</ul></div>
 
         
 

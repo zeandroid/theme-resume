@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: blue
+  color: emerald
 
 # SEO
 marketing:
@@ -14,8 +14,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo résumé theme powered by Hugo Blox Builder.'
-    twitter: 'GetResearchDev'
+    description: 'Alex Reznik professional portfolio. AI Researcher, Software Engineer, and Product Manager.'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -23,17 +22,20 @@ marketing:
     fathom: ''
     pirsch: ''
   verification:
-    google: ''
+    google: 'J0IHMpdA65OgdtbOcHBkyhaja_oTaWu8yjxKDyN5LJ4'
     baidu: ''
 
 # Site header
 header:
   navbar:
-    enable: true
+    enable: false
+    show_search: true
+    show_theme_chooser: false
     blox: floating-theme-toggler
 
 # Site footer
 footer:
+  block: minimal
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
     license:
