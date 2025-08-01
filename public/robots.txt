@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://alex.reznik.click/sitemap.xml
