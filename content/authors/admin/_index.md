@@ -24,17 +24,17 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
+  - icon: custom/email 
     url: 'mailto:alex@reznik.click'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/alexanderreznik
   - icon: brands/github
     url: https://github.com/zeandroid
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/alexanderreznik
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  - icon: brands/youtube
+    url: https://www.youtube.com/@zeandroid
+  - icon: custom/flickr
+    url: https://www.flickr.com/photos/zeandroid
 
 education:
   - area: PhD Artificial Intelligence
