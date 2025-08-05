@@ -28,10 +28,10 @@ marketing:
 # Site header
 header:
   navbar:
-    enable: false
+    enable: false 
     show_search: true
     show_theme_chooser: false
-    blox: floating-theme-toggler
+    blox: "navbar"
 
 # Site footer
 footer:
