@@ -40,10 +40,10 @@ sections:
       username: admin
   - block: awards
     content:
-      title: Awards
+      title: Projects
       username: admin
   - block: languages
     content:
-      title: Languages
+      title: Technical Skills 
       username: admin
 ---

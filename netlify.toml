@@ -22,7 +22,7 @@
 
 [dev]
   command = "hugo server --bind=0.0.0.0 --port=58347 --buildDrafts --buildFuture --disableFastRender"
-  targetPort = 8888
+  targetPort = 58347 
   framework = "#custom"
   autoLaunch = true
 

@@ -5,5 +5,15 @@
     <loc>http://localhost:58347/</loc>
     <lastmod>2025-08-01T09:34:54-04:00</lastmod>
     <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:58347/resume/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:58347/contact/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:58347/projects/</loc>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>

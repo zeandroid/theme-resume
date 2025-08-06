@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alex Reznik Portfolio</title>
+    <link>http://localhost:58347/projects/</link>
+      <atom:link href="http://localhost:58347/projects/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alex Reznik Portfolio</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>http://localhost:58347/media/icon_hu_fce6d79adffe8e19.png</url>
+      <title>Alex Reznik Portfolio</title>
+      <link>http://localhost:58347/projects/</link>
+    </image>
+    
+  </channel>
+</rss>

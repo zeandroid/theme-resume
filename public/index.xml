@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home | Résumé Hugo Theme</title>
+    <title>Home | Alex Reznik Portfolio</title>
     <link>http://localhost:58347/</link>
       <atom:link href="http://localhost:58347/index.xml" rel="self" type="application/rss+xml" />
     <description>Home</description>
@@ -11,6 +11,22 @@
       <title>Home</title>
       <link>http://localhost:58347/</link>
     </image>
+    
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:58347/resume/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58347/resume/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:58347/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58347/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
